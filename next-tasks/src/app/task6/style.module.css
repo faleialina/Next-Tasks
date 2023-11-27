@@ -1,0 +1,22 @@
+.dark {
+    background-color: black;
+    height: 100vh;
+}
+
+.light {
+    background-color: white;
+    height: 100vh;
+}
+
+.darkP {
+    color: black;
+}
+
+.lightP {
+    color: white;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 30px;
+}
