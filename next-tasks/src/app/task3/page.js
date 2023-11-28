@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import { useState } from 'react';
 import style from './style.module.css'
 
@@ -22,6 +23,9 @@ export default function Task3() {
                     <button onClick={doValue}>Ввод</button>
                 </div>
             </div>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

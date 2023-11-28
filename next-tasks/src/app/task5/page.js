@@ -1,4 +1,7 @@
 'use client'
+
+import Link from "next/link";
+
 export default function Task5() {
     function show(event) {
         console.log(event.target.textContent);
@@ -12,6 +15,9 @@ export default function Task5() {
             <ul >
                 {["New York", "London", "Tokyo", "Paris", "Berlin"].map((elem, i) => <li onClick={show} key={i}>{elem}</li>)}
             </ul>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

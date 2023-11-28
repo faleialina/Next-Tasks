@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import style from './style.module.css'
 export default function Task1() {
     return (
@@ -20,6 +21,9 @@ export default function Task1() {
                     <button>Регистрация</button>
                 </div>
             </div>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

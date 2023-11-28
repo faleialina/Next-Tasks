@@ -1,3 +1,5 @@
+'use client'
+import Link from "next/link"
 import { useState } from "react"
 
 export default function Task7() {
@@ -14,6 +16,9 @@ export default function Task7() {
             <button onClick={() => setFlag(true)}>Показать текст</button>
             <button onClick={() => setFlag(false)}>Скрыть текст</button>
             <p>{flag ? 'Hello' : ''}</p>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

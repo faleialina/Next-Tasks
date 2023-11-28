@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link'
 import { useState } from 'react'
 import style from './style.module.css'
 
@@ -39,6 +40,9 @@ export default function Task2() {
                     <button onClick={doChek}>Регистрация</button>
                 </div>
             </div>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

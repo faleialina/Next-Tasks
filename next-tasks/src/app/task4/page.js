@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Task4() {
     return (
         <>
@@ -6,6 +8,9 @@ export default function Task4() {
             <ul>
                 {["New York", "London", "Tokyo", "Paris", "Berlin"].map(elem => <li>{elem}</li>)}
             </ul>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

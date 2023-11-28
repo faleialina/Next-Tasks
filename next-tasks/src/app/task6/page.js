@@ -1,6 +1,7 @@
 'use client'
 import style from './style.module.css'
 import { useState } from "react"
+import Link from 'next/link'
 
 export default function Task6() {
     const [bool, setBool] = useState(true)
@@ -14,6 +15,9 @@ export default function Task6() {
             <div >
                 <button className={style.btn} onClick={() => setBool(!bool)}>{bool ? 'dark' : 'ligt'}</button>
             </div>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </div>
     )
 }
