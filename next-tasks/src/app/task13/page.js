@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import { useState } from "react"
 
 
@@ -20,6 +21,9 @@ export default function Task13() {
             </p>
             <button onClick={random}>Click</button>
             <p>{value}</p>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

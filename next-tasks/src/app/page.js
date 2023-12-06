@@ -15,11 +15,11 @@ export default function Home() {
     <p><Link href='/task9'>task #9 </Link></p>
     <p><Link href='/task10'>task #10 </Link></p>
     <p><Link href='/task11'>task #11 </Link></p>
-    <p><Link href='/task12'>task #11 </Link></p>
-    <p><Link href='/task13'>task #11 </Link></p>
-    <p><Link href='/task14'>task #11 </Link></p>
-    <p><Link href='/task15'>task #11 </Link></p>
-    <p><Link href='/task16'>task #11 </Link></p>
+    <p><Link href='/task12'>task #12 </Link></p>
+    <p><Link href='/task13'>task #13 </Link></p>
+    <p><Link href='/task14'>task #14 </Link></p>
+    <p><Link href='/task15'>task #15 </Link></p>
+    <p><Link href='/task16'>task #16 </Link></p>
   </>
   )
 }

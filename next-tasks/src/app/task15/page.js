@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import { useState } from "react";
 import AddTask from "./AddTask";
 import TaskList from "./TaskList";
@@ -15,7 +16,9 @@ export default function Task15() {
             </p>
             <TaskList button={button}></TaskList>
             <AddTask setButton={setButton}></AddTask>
-
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

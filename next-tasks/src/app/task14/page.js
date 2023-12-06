@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link"
 import { useState } from "react"
 
 
@@ -19,6 +20,9 @@ export default function Task14() {
             </p>
             <h1 >{value}</h1>
             <button onMouseDown={show} onMouseLeave={notshow}>Click</button>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

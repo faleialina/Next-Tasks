@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 
@@ -11,7 +12,11 @@ export default function Task16() {
                 компонента. page.js: Содержит калькулятор. Calculator.js: Принимает введенные
                 данные и выполняет математические операции для расчета итогового результата.
             </p>
-
+            <input type="text" />
+            <input type="text" />
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }

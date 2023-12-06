@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Input from "./Input";
 
 
@@ -13,6 +14,9 @@ export default function Task11() {
             <Input></Input>
             <Input></Input>
             <button>Click</button>
+            <p>
+                <Link href='/'>back</Link>
+            </p>
         </>
     )
 }
